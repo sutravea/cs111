@@ -1,6 +1,7 @@
 public class Sum{
 
     private static int queryInput(){
+	System.out.print("Enter number: ");
 	return IO.readInt();
     }
 
