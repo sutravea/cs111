@@ -1,0 +1,17 @@
+public class Sum{
+    public static void main(String[]args){
+	int num1,num2,ans;
+	queryInput(num1,num2);
+	ans = add(num1,num2);
+	dispOutput(num1,num2);
+    }
+
+    private void queryInput(n1,n2){
+	n1 = readInt();
+	n2 = readInt();
+	return;
+    }
+
+    private int add(n1,n2){
+	return n1+n2);
+    
