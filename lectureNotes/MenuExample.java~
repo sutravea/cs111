@@ -1,0 +1,23 @@
+public class MenuExample{
+    
+    public static void main(String[] args){
+
+	double first, second;
+	int operationIndex;
+	
+	System.out.print("First number: ");
+	first = IO.readInt();
+	System.out.print("Second number: ");
+	second = IO.readInt();
+
+	System.out.print("What is the desired operation (1,2,3,4): ");
+	
+	System.out.println("1. Add");
+	System.out.println("2. Subtract");
+	System.out.println("3. Multiply");
+	System.out.println("4. Divide");
+	
+	operationIndex = IO.readInt();
+	
+    }
+}
