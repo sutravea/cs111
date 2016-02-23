@@ -4,7 +4,7 @@ public class Scores{
 	
 	int judgeCount = IO.readInt();
 	
-	while(judgeCount%1 != 0 || judgeCount < 0 ){
+	while(judgeCount <= 3 ){
 	    IO.reportBadInput();
 	    judgeCount = IO.readInt();
 	}
