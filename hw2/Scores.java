@@ -1,13 +1,23 @@
-import java.util.*;
-
 public class Scores{
+    
+    public static int reportBadInput(int i){
+	System.out.println("User entered bad input.");
+	i = IO.readInt();
+	return i;
+    }
+
+    public static double reportBadInput(double d){
+	System.out.println("User entered bad input.");
+	d = IO.readDouble();
+	return d;
+    }
+    
     public static void main(String [] args){
 	
 	int judgeCount = IO.readInt();
 	
 	while(judgeCount%1 != 0 || judgeCount < 0 ){
-	    System.out.println("User entered bad input.");
-	    judgeCount = IO.readInt();
+	    judgeCount = reportBadInput(judgeCount);
 	}
 	
 	double[] scoreArray = new double[judgeCount];
@@ -25,8 +35,7 @@ public class Scores{
 		highScoreIndex = index;
 	    
 	    while(scoreArray[index] < 0 || scoreArray[index] > 10){
-		System.out.println("User entered bad input.");
-		scoreArray[index] = IO.readDouble();
+		scoreArray[index] = reportBadInput(scoreArray[index]);
 	    }
 	}
 
