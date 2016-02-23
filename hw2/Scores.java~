@@ -1,0 +1,8 @@
+import java.util.*;
+
+public class Score{
+    public static void main(String [] args){
+	int judgeCount = IO.readInt();
+	if(
+    }
+}
