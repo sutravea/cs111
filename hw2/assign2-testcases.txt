@@ -1,4 +1,17 @@
-Input	|	Expected Output	|	Actual Output
+Input | Expected Output	| Actual Output
 
 Scores.java
 
+4, -4.3 ,3.7, 4.9, 11.0, 10.5, 10.0, 4.3 | 4.6 | 4.6
+2, 3, 2, 3, 4 | 3.0 | 3.0
+
+TwoSmallest.java
+
+123, 3, 4, 5, -2, -3, -2, 123 | -3.0, -2.0 | -3.0, -2.0
+123, 2, 3, 4, -2, -3, -3, 123 | -3.0, -3.0 | -3.0, -3.0
+
+LuckySevens.java
+
+0, 0 | 0 | 0
+-7, 7 | 2 | 2
+70, 79 | 11 | 11
