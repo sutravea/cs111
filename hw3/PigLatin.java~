@@ -1,0 +1,9 @@
+public class PigLatin{
+    public statc void main(String [] args){
+	System.out.println("Enter word: ");
+	String word = new String();
+	word = IO.readString();
+    }
+
+    
+}
