@@ -1,0 +1,8 @@
+public class WordCount{
+    public static void main(String [] args){
+	System.out.print("enter sentence: ");
+	String original = IO.readString();
+	System.out.print("enter minlength: ");
+	int minLength = IO.readInt();
+    }
+}
